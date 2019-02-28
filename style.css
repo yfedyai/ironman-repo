@@ -1,0 +1,28 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+html { 
+  background: url(img/iron-cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+.wrapper{
+    margin: 100px auto;
+    width: 1200px;
+    height: 600px;
+    
+
+}
+
+.top-container {
+    width: 100%;
+    background-color: #1C1C21;
+    height: 15%;
+}
