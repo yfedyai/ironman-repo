@@ -52,10 +52,10 @@ html {
     align-items: center;
     justify-content: space-between;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 0.5em;
     text-transform: uppercase;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
 }
 
 .fa-circle {
@@ -73,6 +73,11 @@ font-size: 4px;
 .center-left-container{
     width: 34%;
     background: #ffffff;
+    /* padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%; */
+    display: flex;
+    justify-content:flex-end;
 
 }
 
@@ -80,6 +85,10 @@ font-size: 4px;
     width: 54%;
     background: url(img/iron-wraper.jpg);
     background-size: cover;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    display: flex;
+
 
 }
 
@@ -118,3 +127,81 @@ font-size: 4px;
     color: #56555E;
 }
 
+
+.center-left-textcontainer{
+    /* background:aquamarine; */
+    display: flex;
+    position: relative;
+    flex-basis: 60%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+    flex-direction: column;
+  
+}
+
+.line-container {
+    width:20%;
+    border-top: #E03D24 6px solid;
+    position: absolute;
+    top:-15%;
+}
+
+.name-left {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #E03D24;
+    font-size: 10vh;
+}
+
+.hero-number{
+    font-size: 2vh;
+    color:grey;
+}
+
+.hero-number span{
+    font-weight: bold;
+    font-size: 3vh;
+    color:grey;
+}
+
+.hero-description {
+    border-top: 1px solid grey;
+    font-size: 1vh;
+    color:grey;
+}
+
+
+
+
+
+
+/* RIGHT SECTION "MAN" */
+.name-right {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    font-size:10vh;
+    text-align: center;
+
+}
+
+
+
+.center-right-textcontainer {
+    
+    /* background: peachpuff; */
+    flex-basis: 50%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+   
+
+}
+
+.center-right-buttoncontainer {
+    flex-basis: 50%;
+    background: pink;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
