@@ -44,7 +44,7 @@ html {
 
 .middle-container img {
     position: absolute;
-    height: 70vh;
+    height: 71vh;
     left: 28%;
     width: 18vw;
     z-index: 1;
@@ -263,7 +263,7 @@ font-size: 4px;
 }
 
 .click-on-thanos div {
-    font-size: 6Px;
+    font-size: 1vh;
     color: grey;
     text-align: center;
     color:grey;
